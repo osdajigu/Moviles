@@ -1,13 +1,20 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <item android:id="@+id/new_game"
         android:title="New Game"
-        android:icon="@drawable/new_game" />
+        android:icon="@drawable/new_game"
+        app:showAsAction="always"/>
     <item android:id="@+id/ai_difficulty"
         android:title="Difficulty"
-        android:icon="@drawable/difficulty_level"  />
+        android:icon="@drawable/difficulty_level"
+        app:showAsAction="always"/>
     <item android:id="@+id/about"
-        android:title="About"/>
-    <item android:id="@+id/quit"
+        android:title="About"
+        android:icon="@drawable/about"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/quit"
+        android:icon="@drawable/quit_game"
         android:title="Quit"
-        android:icon="@drawable/quit_game" />
+        app:showAsAction="always" />
 </menu>
